@@ -1,0 +1,147 @@
+body{
+    font-family: sans-serif;
+    margin: 3px 4px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fe5835
+}
+.fab{
+    font-size: 2.5rem;
+}
+.fas{
+    font-size: 2rem;
+}
+.search{
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px greenyellow solid;
+    float: left;
+}
+form.button{
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    background-color: var(--wh);
+    column-gap: 2px;
+    row-gap: 2px;
+}
+h1{
+    text-align: center;
+    color: var(--wh);
+    background-color: #b1e701;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.top{
+    text-align: center;
+    border: 2px #420200 solid;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.links>button{
+    width: 50%;
+    border-radius: 0px;
+    margin: 0px;
+}
+.links>button:nth-child(1) {
+    border-bottom-left-radius: 1rem;
+}
+.links>button:nth-child(2) {
+    border-bottom-right-radius: 1rem;
+}
+.card{
+    margin: 10px 0px;
+    background-color: #fff;
+    border-radius: 1.5rem;
+}
+.card-img{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+}
+.card-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.card-subtitle{
+    color: #888;
+}
+.card-text{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+}
+@media (min-width: 768px) {
+    .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    background-color: var(--wh);
+    column-gap: 2px;
+    row-gap: 2px;
+    }
+}
+@media (max-width: 600px) {
+    .grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    background-color: var(--wh);
+    column-gap: 2px;
+    row-gap: 2px;
+    }
+}
+@media (min-width: 600px) {
+    .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    background-color: var(--wh);
+    column-gap: 2px;
+    row-gap: 2px;
+    }
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer{
+    background-color: #fed3a2;
+}
+.end{
+    text-align: center;
+}
+.learn{
+    text-align: center;
+}
+.tel{
+    text-align: center;
+}
+.mail{
+    text-align: center;
+}
+.others{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+.pri{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}

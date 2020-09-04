@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+:root{
+    --pe: rgba(207, 30, 207, 0.685);
+    --gy: #d0d8d0e5;
+    --or: rgb(207, 67, 11);
+    --bp: rgb(101, 14, 201);
+    --lb: rgb(119, 133, 175);
+    --ge: #c1c4c1c0;
+}
+.stick{
+    background-color: rgb(252, 249, 249);
+}
+.a {
+    border-bottom: 1px var(--gy) solid;
+    
+}
+.comp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.three{
+    color: var(--pe);
+}
+.sass{
+    color: var(--pe);
+    background-color: rgb(248, 248, 248);
+    border-radius: 50%;
+    padding: 7px;
+}
+.html{
+    color: var(--or);
+    background-color: rgb(248, 248, 248);
+    border-radius: 50%;
+    padding: 7px;
+}
+.js{
+    background-color: rgb(248, 248, 248);
+    border-radius: 50%;
+    padding: 7px;
+}
+.vuejs{
+    background-color: rgb(248, 248, 248);
+    border-radius: 50%;
+    padding: 7px;
+}
+.gulp{
+    background-color: rgb(248, 248, 248);
+    border-radius: 50%;
+    padding: 7px;
+}
+.primary{
+    background-color: var(--bp);
+    background: radial-gradient( rgb(96, 8, 211) 20%, purple);
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+.bulkit{
+    font-weight: 600;
+}
+.hello{
+    font-weight: 600;
+    font-size: 40px;
+}
+.start{
+    background-color: var(--lb);
+}
+.features{
+    font-weight: 600;
+    font-size: 30px
+}
+.box{
+    color: var(--pe)
+}
+.first{
+    font-weight: 700;
+}
+.buy{
+    font-weight: 900;
+    font-size: 20px;
+}
+.prof{
+    font-weight: 700;
+    font-size: 20px
+}
+.chat{
+    color: var(--pe);
+    font-weight: 600;
+    font-size: 15px
+}
+.back{
+    background-color: var(--ge);
+}
+.obj{
+    color: antiquewhite;
+    background-color: var(--pe);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.saas{
+    font-size: 13px
+}
+.product{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.star{
+    color: purple
+}
+.foot{
+    background-color: var(--gy); 
+}
+.screenshot{
+    background-color: var(--ge);
+}
+.reviews{
+    background-color: var(--ge);
+}
+.rev{
+    background-color: rgb(252, 249, 249);
+}

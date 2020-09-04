@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100;
+}
+.header{
+    background-color:white;
+    width: 100%;
+    position: fixed;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.name{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: gold;
+}
+.icon{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.tee{
+    background-color: rgb(226, 221, 221);
+    padding: 0px 1.5rem;
+}
+.image{
+    padding-top: 9rem;
+    text-align: center;
+}
+.img{
+    border-radius: 49%;
+}
+.toyyib{
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.web{
+    padding-top: 0.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: blue;
+}
+.image1{
+    text-align: center;
+    padding-top: 5rem;
+}
+.img1{
+    max-width: 90%;
+    border-radius: 2rem;
+}
+.me{
+    color:Blue;
+    font-size: 2.5em;
+    font-weight: 900;
+    font-family: verdana;
+    padding-top:3rem;
+}
+.birth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.thick{
+    font-size: 1.5rem;
+    color: firebrick;
+}
+.thin{
+    font-size: 1.3rem;
+    color: rgb(25, 163, 145);
+}
+.level{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: verdana;
+    padding-bottom: 1rem;
+}
+.myprogress{
+    width: 100%;
+    background-color: rgb(163, 135, 238);
+    border-radius: 1rem;
+}
+.bar1{
+    width: 70%;
+    height: 20px;
+    background-color:red;
+    border-radius: 1rem;
+}
+.bar2{
+    width: 40%;
+    height: 20px;
+    background-color:red;
+    border-radius: 1rem;
+}
+.all{
+    padding-top: 2rem;
+}
+.icon2{
+    font-size: 2.2rem;
+    color:green;
+}
+.first{
+    font-size: 1.5rem;
+    padding: 0px 10px;
+    font-weight: 600;
+    font-family: verdana;
+}
+.first1{
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.rad{
+    border-radius: 3rem;
+}
+.image2{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 2rem;
+}
+.img2{
+    text-align: center;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    width: 100%;
+}
+.icon3{
+    color: red;
+}
+.date{
+    font-size: 1.3rem;
+    color: grey
+}
+.card-title{
+    padding: 0px 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: verdana;
+}
+.card-text{
+    color: grey;
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
+    line-height: 2rem
+}
+.card-link{
+    color: red;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.reach{
+    padding: 3rem 1rem;
+}
+.others{
+    font-family: verdana;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.other{
+    font-size: 1.3rem;
+    font-family: verdana;
+    color: grey;
+}
+.other1{
+    padding-bottom: 2rem;
+}
+.link{
+    text-decoration: none;
+}
+.form{
+    padding-top: 4rem;
+}
+.form1{
+    color: red;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+    font-family: verdana;
+}
+input{
+    font-size: 1rem;
+    margin: 1rem 0px;
+    border-radius: 1rem;
+    border: 0px;
+    padding: 1rem;
+    width: 90%;
+}
+button{
+    border-radius: 1rem;
+    border: 0;
+    background-color: red;
+    padding: 1rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+.footer{
+    padding: 3rem 1.5rem;
+    background-color: white;
+}
+.end{
+    text-align: center;
+    font-size: 1rem;
+    font-family: verdana;
+}
+.tel{
+    text-align: center;
+    font-size: 1rem;
+    font-family: verdana;
+    padding-top: 1rem;
+}
+.learn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-family: verdana;
+    color: red;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    color: green;
+}
